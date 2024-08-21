@@ -1,0 +1,107 @@
+body {
+    background-color: #d4edda; /* Vert clair */
+    font-family: Arial, sans-serif;
+    margin-top: 80px; /* Ajouter une marge en haut pour le header */
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 90px; /* Ajustez cette valeur en fonction de la taille souhaitée du logo */
+    height: auto;
+    margin-left: -20px; /* Ajustez cette valeur pour décaler le logo à gauche */
+}
+
+.logo-container p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px; /* Ajustez la taille du texte si nécessaire */
+    text-align: center;
+    width: 150px; /* Ajustez cette valeur pour centrer le texte sous le logo */
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #054408;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 1rem; /* Espacement en bas de chaque carte */
+    background-color: #b9ddc2; /* Vert plus foncé */
+    border: none; /* Supprime la bordure de la carte pour un look plus propre */
+    /* styles.css */
+
+  
+}
+
+.text-center h1 {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #b9ddc2; /* Vert plus foncé pour l'en-tête */
+    border-bottom: none; /* Supprime la bordure inférieure de l'en-tête */
+}
+
+.card-body {
+    background-color: #b9ddc2; /* Vert plus foncé pour le corps de la carte */
+}
+
+.card-title {
+    color: #054408; /* Vert foncé */
+    text-align: center; /* Centrer le texte */
+}
+
+/* Bouton personnalisé pour Add/Update et Edit */
+.btn-custom, .btn-edit {
+    background-color: #054408 !important; /* Vert foncé */
+    border-color: #054408 !important; /* Vert foncé */
+    color: white !important; /* Blanc pour le texte */
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: 0.25rem !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out !important;
+}
+
+.btn-custom:hover, .btn-edit:hover {
+    background-color: #046307 !important; /* Vert un peu plus clair pour le survol */
+    border-color: #046307 !important; /* Vert un peu plus clair pour le survol */
+}
+
+/* Bouton personnalisé pour Delete */
+.btn-delete {
+    background-color: #ff0000 !important; /* Rouge */
+    border-color: #ff0000 !important; /* Rouge */
+    color: white !important; /* Blanc pour le texte */
+}
+
+.btn-delete:hover {
+    background-color: #cc0000 !important; /* Rouge foncé pour le survol */
+    border-color: #cc0000 !important; /* Rouge foncé pour le survol */
+}
+
+/* Style spécifique pour les lignes du tableau */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ffffff; /* Blanc pour les lignes impaires */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9; /* Légèrement gris pour les lignes paires */
+}
+
+/* Style spécifique pour la ligne d'en-tête */
+.table-header {
+    background-color: #054408; /* Vert foncé */
+    color: white; /* Blanc pour le texte */
+}

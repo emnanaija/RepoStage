@@ -1,0 +1,25 @@
+<!-- person-list.component.html -->
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let person of persons">
+        <td>{{ person.name }}</td>
+        <td>{{ person.email }}</td>
+        <td>
+          <button class="btn btn-warning btn-sm" (click)="editPerson(person)">Edit</button>
+        </td>
+        <td>
+          <button class="btn btn-danger btn-sm" (click)="deletePerson(person.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
